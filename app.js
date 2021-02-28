@@ -23,7 +23,7 @@ app.set("view engine", "ejs");
 
 
 
-mongoose.connect("mongodb+srv://benny:SpatialHistApp@cluster0.oorru.mongodb.net/database?retryWrites=true&w=majority", {
+mongoose.connect(*DatabaseURI*, {
   useNewUrlParser: true
 });
 
